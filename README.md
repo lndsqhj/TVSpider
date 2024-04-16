@@ -1,6 +1,7 @@
 # CatVodOpen和TvBox
 
 ## 食用前阅读
+&ensp;&ensp;授人以鱼不如授人以渔，本仓意指在教会大家学会Spider，也欢迎大家提ISSUE，一起学习一起进步。<br>
 &ensp;&ensp;以下资源不能保证内容的合法性、准确性、完整性和有效性，请根据情况自行判断。 
 仅用于测试和学习研究，禁止用于商业用途，不得将其用于违反国家、地区、组织等的法律法规或相关规定的其他用途。
 使用任何第三方硬件、软件、所造成的一切后果由使用的个人或组织承担，与本文内容无关。
@@ -57,7 +58,9 @@ python build.py --aliToken aliToken
 * m3u8遇到跨域的问题可以尝试使用代理来进行加载，如果没有跨域使用代理会引起死循环
 * 虎牙弹幕功能无法实现,现在并不支持WebSocket来监听弹幕
 * SP360启用嗅探解析,CatVodOpen目前还不支持嗅探
-
+* CatVodOpen Windows无法预览Jable和Doll图片,需要手动开启代理加载。
+* TV影视暂不不支持哔哩哔哩DASH文件播放
+* 老版本的CatVodOpen cfg参数类型为:string,TV参数类型为[object],所有需要区分,初始化的时候还是用this.cfgObj
 
 ## 特别说明
 * 近期CatVodOpen更新移除了quickjs,导致无法使用,请尝试使用旧版本
